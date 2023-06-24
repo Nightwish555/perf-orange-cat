@@ -54,4 +54,19 @@
 
 ![image](https://github.com/1033866383/perf-orange-cat/assets/56209295/78634fab-7225-4226-bca1-fdd4884abaec)
 
+5.下拉选中应用，选中后会自动展示版本号，随后点击创建任务。
 
+![image](https://github.com/1033866383/perf-orange-cat/assets/56209295/ffbb3ef7-0623-44fd-97a2-f9e17135173b)
+
+6.点击完创建任务后页面会自动刷新，并开始性能测试，如果打开实时显示屏幕按钮，则上方的图片会实时展示手机屏幕的情况。左侧的是时间按钮是此任务的开始时间也代表此任务的名称，IOS的fps下方的卡顿，强卡顿并不会计算，Android则会真实计算，计算方式与perfdog一致。
+
+![image](https://github.com/1033866383/perf-orange-cat/assets/56209295/c55b46c6-3903-421a-a9a2-9caf1366f0f7)
+
+![image](https://github.com/1033866383/perf-orange-cat/assets/56209295/6de2339e-59a5-4978-9730-007d015154e1)
+
+7.最后点击停止任务，任务即可停止，任务停止之后可用删除任务，删除任务是物理删除会把所有的任务数据删除谨慎删除。
+
+![image](https://github.com/1033866383/perf-orange-cat/assets/56209295/a2f65fca-2256-4fac-a1a3-79fb8899ea0f)
+
+
+IOS性能测试使用的是tidevice工具：https://github.com/alibaba/taobao-iphone-device
